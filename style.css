@@ -1,0 +1,60 @@
+/* body {
+  background-color: #2596be;
+} */
+
+body {
+  height: 100pt;
+}
+
+article {
+  border: black solid 1pt;
+  /*  border-style: solid;  groove, dashed, etc*/
+  /* border-color: black;
+  border-width: 1pt;  */
+  width: 50%;
+  height: 90%;
+}
+
+article > p {
+  width: 50%;
+  height: 100%;
+  border: red dotted 1pt;
+  text-align: center;
+  margin: 1pt auto;
+}
+article > p:hover {
+  margin: -15pt auto;
+}
+
+.our-margin {
+  margin-top: 5pt;
+  border-style: solid;
+  border-color: black;
+  border-width: 5pt;
+  padding-left: 150pt;
+  text-align: center;
+}
+
+.new-article {
+  border: blue solid 1pt;
+  width: auto;
+  height: auto;
+  min-width: 100pt;
+  max-width: 1000pt;
+  min-height: 150pt;
+  max-height: 1500pt;
+}
+
+p {
+  border-style: groove;
+  border-top-color: blue;
+  border-top-width: 75pt;
+  border-right-color: green;
+  border-right-width: 40pt;
+  border-right-style: dotted;
+  border-bottom-color: purple;
+  border-bottom-width: 100pt;
+  border-left-color: red;
+  border-left-width: 60pt;
+  border-left-style: dotted;
+}
