@@ -22,6 +22,10 @@ article > p:hover {
   margin: -15pt auto;
 }
 
+img {
+  width: 600px;
+}
+
 .our-margin {
   margin-top: 5pt;
   border-style: solid;
