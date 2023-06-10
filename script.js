@@ -1,3 +1,5 @@
+console.log(`hello world`);
+
 const randomArr = Array.from(
   { length: 100 },
   () => Math.trunc(Math.random() * 6) + 1
